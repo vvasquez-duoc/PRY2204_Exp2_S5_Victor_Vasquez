@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="46ABE605-C9C8-984B-2227-0B99BE706D5B" name="CLIENTE">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-09-10 00:01:53 UTC</createdTime>
+<generatorID>518A34EC-544A-2385-1048-E8C0A3C8FB35</generatorID>
+<ownerDesignName>Exp2_S5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rut" id="E83D882C-C77B-A5AC-C6CF-843A3C663BEF">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-09-10 00:01:53 UTC</createdTime>
+<generatorID>63129A96-CE9D-B06F-B86E-FBB09FAD2234</generatorID>
+<ownerDesignName>Exp2_S5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 CHAR</dataTypeSize>
+<ownDataTypeParameters>9 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombres" id="B784ADBA-F913-719A-CF26-2072C8C835CA">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-09-10 00:01:53 UTC</createdTime>
+<generatorID>CFFADBE5-75BF-7265-9240-F859EB115C2B</generatorID>
+<ownerDesignName>Exp2_S5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellidos" id="6A04C89F-CD6E-99BE-B9FC-F95C4EDE5E61">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-09-10 00:01:53 UTC</createdTime>
+<generatorID>C29C7185-450F-3403-6DC5-23A9C2D5E82B</generatorID>
+<ownerDesignName>Exp2_S5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="domicilio" id="CD0BB05B-5CAC-D49A-E536-CA0BA03A7C21">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-09-10 00:01:53 UTC</createdTime>
+<generatorID>E4C0D701-A571-2A9F-0E28-508C8160EA0F</generatorID>
+<ownerDesignName>Exp2_S5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="3EF0DDD5-7AFC-EF9E-A8B1-9D79CCFAC0FB">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-09-10 00:01:53 UTC</createdTime>
+<generatorID>21CB0B29-A487-4441-5777-73A7A1817BBA</generatorID>
+<ownerDesignName>Exp2_S5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="3B717F9D-93D7-0415-BC2F-8961F107F478">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-09-10 00:01:53 UTC</createdTime>
+<generatorID>35EF3787-B889-8B52-D25F-9BE1A3045409</generatorID>
+<ownerDesignName>Exp2_S5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="90169FAD-2688-ED10-7EA9-AF3C11E3FF13" name="CLIENTE_PK">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-09-10 00:01:53 UTC</createdTime>
+<generatorID>1961C87E-74BA-9301-C020-9F48859DEEDD</generatorID>
+<ownerDesignName>Exp2_S5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E83D882C-C77B-A5AC-C6CF-843A3C663BEF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

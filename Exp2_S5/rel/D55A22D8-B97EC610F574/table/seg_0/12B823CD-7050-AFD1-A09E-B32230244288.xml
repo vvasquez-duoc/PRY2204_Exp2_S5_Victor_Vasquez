@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="12B823CD-7050-AFD1-A09E-B32230244288" name="REPUESTOS">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-09-10 00:01:53 UTC</createdTime>
+<generatorID>66BDF23D-4F3F-ED05-BA7E-822E8782AEF9</generatorID>
+<ownerDesignName>Exp2_S5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idRepuesto" id="CA35FF7B-041E-45B3-A653-CA84CAED2082">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-09-10 00:01:53 UTC</createdTime>
+<generatorID>10A72BA1-BD10-B88C-3B78-E7518059D2FB</generatorID>
+<ownerDesignName>Exp2_S5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="E2697CC4-8B4F-9528-5A01-0D0FE492072B">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-09-10 00:01:53 UTC</createdTime>
+<generatorID>B2778CAF-A4C2-4A0C-636D-4586B8843DF3</generatorID>
+<ownerDesignName>Exp2_S5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cantidad" id="0AC64F39-BCE0-209A-D5AC-A0B69845E55D">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-09-10 00:01:53 UTC</createdTime>
+<generatorID>DEF2F0FE-C5A3-36BE-E026-175D31EC2DC6</generatorID>
+<ownerDesignName>Exp2_S5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="costo_unitario" id="23C473CF-1B60-7AF3-5FFA-F22B64614A40">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-09-10 00:01:53 UTC</createdTime>
+<generatorID>F1DAD96A-37C6-9171-306A-49F188B56774</generatorID>
+<ownerDesignName>Exp2_S5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SERVICIO_idServicio" id="B9617E86-FA84-C924-7381-9F58FE5E4086">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-09-10 00:01:53 UTC</createdTime>
+<generatorID>856CEAB0-CBFB-267A-01ED-F155957605DD</generatorID>
+<ownerDesignName>Exp2_S5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9C32A0E7-993F-4D10-65B9-EDEC4A153C1B" referredColumn="D30918C2-FDC5-512D-05F3-DC1550713104"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F7C48CCB-C6CE-5513-1670-3D8D39F05AE3" name="REPUESTOS_PK">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-09-10 00:01:53 UTC</createdTime>
+<generatorID>0CB00D94-F3A5-DB81-B6EB-B725AECC6E02</generatorID>
+<ownerDesignName>Exp2_S5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA35FF7B-041E-45B3-A653-CA84CAED2082"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3AF10A5A-4697-6F46-24C8-5E96A79AFFE1" name="REPUESTOS_SERVICIO_FK">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-09-10 00:01:53 UTC</createdTime>
+<generatorID>B6DDE9AA-F639-18BA-5EDE-294E0456FE30</generatorID>
+<ownerDesignName>Exp2_S5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9617E86-FA84-C924-7381-9F58FE5E4086"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

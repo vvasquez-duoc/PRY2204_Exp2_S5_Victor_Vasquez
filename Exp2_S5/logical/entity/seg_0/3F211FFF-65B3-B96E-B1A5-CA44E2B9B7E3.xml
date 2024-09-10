@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3F211FFF-65B3-B96E-B1A5-CA44E2B9B7E3" name="SERVICIO">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-09-09 23:47:01 UTC</createdTime>
+<ownerDesignName>Exp2_S5</ownerDesignName>
+<engineerTo>
+<item key="D55A22D8-E466-2AEC-EB7F-B97EC610F574" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idServicio" id="DC55C01F-B362-294E-8964-6B635333F423">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-09-09 23:47:13 UTC</createdTime>
+<ownerDesignName>Exp2_S5</ownerDesignName>
+<engineerTo>
+<item key="D55A22D8-E466-2AEC-EB7F-B97EC610F574" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="149413AD-A4D7-E1AA-929A-D87CFD10DCC9">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-09-09 23:47:25 UTC</createdTime>
+<ownerDesignName>Exp2_S5</ownerDesignName>
+<engineerTo>
+<item key="D55A22D8-E466-2AEC-EB7F-B97EC610F574" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="costo_mano_obra" id="B8ED8890-BAE5-A3C2-ABA7-8EA0FD99AFB3">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-09-09 23:48:49 UTC</createdTime>
+<ownerDesignName>Exp2_S5</ownerDesignName>
+<engineerTo>
+<item key="D55A22D8-E466-2AEC-EB7F-B97EC610F574" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idEstado" id="8CF12689-B509-7E24-21B0-1387B2B21B2C">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-09-10 00:00:15 UTC</createdTime>
+<generatorID>1F98C5F7-9A25-33EB-18D6-17E9107CB1FE</generatorID>
+<ownerDesignName>Exp2_S5</ownerDesignName>
+<engineerTo>
+<item key="D55A22D8-E466-2AEC-EB7F-B97EC610F574" value="true"/>
+</engineerTo>
+<referedAttribute>B3B9F0B8-5C8D-87C8-5B33-79DFDAB6E61F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idOrden" id="4B6E4835-A554-1731-7B5C-37C41D93E40A">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-09-10 00:00:26 UTC</createdTime>
+<generatorID>1B0F751A-04D3-9BDF-FD54-3532A773DE80</generatorID>
+<ownerDesignName>Exp2_S5</ownerDesignName>
+<engineerTo>
+<item key="D55A22D8-E466-2AEC-EB7F-B97EC610F574" value="true"/>
+</engineerTo>
+<referedAttribute>FECF260B-D1A9-4009-03BD-8176527283EC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="63956D51-AD7A-E12C-F444-067C7529757E" name="SERVICIO PK">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-09-09 23:47:21 UTC</createdTime>
+<ownerDesignName>Exp2_S5</ownerDesignName>
+<engineerTo>
+<item key="D55A22D8-E466-2AEC-EB7F-B97EC610F574" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DC55C01F-B362-294E-8964-6B635333F423</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

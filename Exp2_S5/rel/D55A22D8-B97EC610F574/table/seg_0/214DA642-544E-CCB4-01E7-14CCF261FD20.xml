@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="214DA642-544E-CCB4-01E7-14CCF261FD20" name="ORDEN_ATENCION">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-09-10 00:01:53 UTC</createdTime>
+<generatorID>8B117DCA-E825-EE98-FB3B-4891B906AE18</generatorID>
+<ownerDesignName>Exp2_S5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idOrden" id="9A2D8726-C91B-4D62-D34B-C1DB4836066B">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-09-10 00:01:53 UTC</createdTime>
+<generatorID>FECF260B-D1A9-4009-03BD-8176527283EC</generatorID>
+<ownerDesignName>Exp2_S5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_ingreso" id="F8E586B1-F82C-0CC1-7EEE-4DAE1C9A30E6">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-09-10 00:01:53 UTC</createdTime>
+<generatorID>C44E520C-A0B3-C329-D5A5-61716AC8B015</generatorID>
+<ownerDesignName>Exp2_S5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLIENTE_rut" id="10A5E561-65E1-EDA5-88F2-96F90EAB90B0">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-09-10 00:01:53 UTC</createdTime>
+<generatorID>F0F13D37-887F-7DC7-F067-234963CC407C</generatorID>
+<ownerDesignName>Exp2_S5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C08BD20B-4931-C627-92E2-1638049E5E3D" referredColumn="E83D882C-C77B-A5AC-C6CF-843A3C663BEF"/>
+</associations>
+</Column>
+<Column name="VEHICULO_patente" id="02130992-BC25-177A-8F3C-AD75235FA1AE">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-09-10 00:01:53 UTC</createdTime>
+<generatorID>D4C9F070-5D4F-B110-0151-492063F6EB3B</generatorID>
+<ownerDesignName>Exp2_S5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FCB079B2-FD77-7100-DB29-08BB868CECDA" referredColumn="7E5B6C54-471B-B924-940E-13E70D5A0BCD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="99FD46B5-7035-506F-9933-98B3953B9313" name="ORDEN_ATENCION_PK">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-09-10 00:01:53 UTC</createdTime>
+<generatorID>1FEA874C-07EB-34F8-B6B9-30EA6890E8AF</generatorID>
+<ownerDesignName>Exp2_S5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A2D8726-C91B-4D62-D34B-C1DB4836066B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1BE7A23B-1956-221E-03D4-00734CB4D2F9" name="ORDEN_ATENCION_CLIENTE_FK">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-09-10 00:01:53 UTC</createdTime>
+<generatorID>F39C4003-BE10-FCAA-243B-FB245137CCFF</generatorID>
+<ownerDesignName>Exp2_S5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10A5E561-65E1-EDA5-88F2-96F90EAB90B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B30696BF-6793-F8F5-E95C-DF59EE68411E" name="ORDEN_ATENCION_VEHICULO_FK">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-09-10 00:01:53 UTC</createdTime>
+<generatorID>7E0CF63D-8644-EF6A-9972-C5CE17263158</generatorID>
+<ownerDesignName>Exp2_S5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02130992-BC25-177A-8F3C-AD75235FA1AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

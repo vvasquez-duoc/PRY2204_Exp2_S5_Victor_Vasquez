@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C9E23F33-D2E4-A85D-1952-B33B407F97C5" name="SERVICIO">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-09-10 00:01:53 UTC</createdTime>
+<generatorID>3F211FFF-65B3-B96E-B1A5-CA44E2B9B7E3</generatorID>
+<ownerDesignName>Exp2_S5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idServicio" id="D30918C2-FDC5-512D-05F3-DC1550713104">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-09-10 00:01:53 UTC</createdTime>
+<generatorID>DC55C01F-B362-294E-8964-6B635333F423</generatorID>
+<ownerDesignName>Exp2_S5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="60808555-5DD2-5BDA-9FD6-2273F2983A2A">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-09-10 00:01:53 UTC</createdTime>
+<generatorID>149413AD-A4D7-E1AA-929A-D87CFD10DCC9</generatorID>
+<ownerDesignName>Exp2_S5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="costo_mano_obra" id="EA589FFF-AB9D-366C-7B5B-6FFB55320A11">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-09-10 00:01:53 UTC</createdTime>
+<generatorID>B8ED8890-BAE5-A3C2-ABA7-8EA0FD99AFB3</generatorID>
+<ownerDesignName>Exp2_S5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO_idEstado" id="FCC061FA-F813-8BA6-3934-ABB48CBDBFD1">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-09-10 00:01:53 UTC</createdTime>
+<generatorID>8CF12689-B509-7E24-21B0-1387B2B21B2C</generatorID>
+<ownerDesignName>Exp2_S5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="45604073-C5AA-7249-0B6E-B5452A77EE5C" referredColumn="C6C92E43-8246-430B-F2F9-1130C4FED2DA"/>
+</associations>
+</Column>
+<Column name="ORDEN_ATENCION_idOrden" id="83F6B829-2064-57BE-1E1C-EA428C1A98B4">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-09-10 00:01:53 UTC</createdTime>
+<generatorID>4B6E4835-A554-1731-7B5C-37C41D93E40A</generatorID>
+<ownerDesignName>Exp2_S5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7B342E96-6117-0CA3-9AE3-6D43A034B210" referredColumn="9A2D8726-C91B-4D62-D34B-C1DB4836066B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8C4DD2A1-C2DF-5CCD-0CAB-BD58207828BB" name="SERVICIO_PK">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-09-10 00:01:53 UTC</createdTime>
+<generatorID>63956D51-AD7A-E12C-F444-067C7529757E</generatorID>
+<ownerDesignName>Exp2_S5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D30918C2-FDC5-512D-05F3-DC1550713104"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="49376761-1A4A-C1B9-1B5C-E4DA204429AB" name="SERVICIO__IDX">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-09-10 00:01:53 UTC</createdTime>
+<ownerDesignName>Exp2_S5</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>1F98C5F7-9A25-33EB-18D6-17E9107CB1FE</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="FCC061FA-F813-8BA6-3934-ABB48CBDBFD1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="49EA236E-60DA-1F2C-CF7B-41AFB5F8224C" name="SERVICIO_ESTADO_FK">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-09-10 00:01:53 UTC</createdTime>
+<generatorID>1F98C5F7-9A25-33EB-18D6-17E9107CB1FE</generatorID>
+<ownerDesignName>Exp2_S5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FCC061FA-F813-8BA6-3934-ABB48CBDBFD1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC9F1A48-FD70-A092-32AD-3A3E482695E1" name="SERVICIO_ORDEN_ATENCION_FK">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-09-10 00:01:53 UTC</createdTime>
+<generatorID>1B0F751A-04D3-9BDF-FD54-3532A773DE80</generatorID>
+<ownerDesignName>Exp2_S5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83F6B829-2064-57BE-1E1C-EA428C1A98B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

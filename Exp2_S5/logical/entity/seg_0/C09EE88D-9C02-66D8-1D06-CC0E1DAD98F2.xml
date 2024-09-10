@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C09EE88D-9C02-66D8-1D06-CC0E1DAD98F2" name="ESTADO">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-09-09 23:50:52 UTC</createdTime>
+<ownerDesignName>Exp2_S5</ownerDesignName>
+<engineerTo>
+<item key="D55A22D8-E466-2AEC-EB7F-B97EC610F574" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idEstado" id="B3B9F0B8-5C8D-87C8-5B33-79DFDAB6E61F">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-09-09 23:52:31 UTC</createdTime>
+<ownerDesignName>Exp2_S5</ownerDesignName>
+<engineerTo>
+<item key="D55A22D8-E466-2AEC-EB7F-B97EC610F574" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="F086AD82-7D6E-4AC8-DC30-8DE5F271259B">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-09-09 23:52:52 UTC</createdTime>
+<ownerDesignName>Exp2_S5</ownerDesignName>
+<engineerTo>
+<item key="D55A22D8-E466-2AEC-EB7F-B97EC610F574" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idServicio" id="229B01E8-6486-E590-AF3D-0CB5FC5F0457">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-09-10 00:00:08 UTC</createdTime>
+<generatorID>1F98C5F7-9A25-33EB-18D6-17E9107CB1FE</generatorID>
+<ownerDesignName>Exp2_S5</ownerDesignName>
+<engineerTo>
+<item key="D55A22D8-E466-2AEC-EB7F-B97EC610F574" value="true"/>
+</engineerTo>
+<referedAttribute>DC55C01F-B362-294E-8964-6B635333F423</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8FB88E9F-6E93-61BD-A393-C6315D271F5A" name="ESTADO PK">
+<createdBy>vvasquez</createdBy>
+<createdTime>2024-09-09 23:52:41 UTC</createdTime>
+<ownerDesignName>Exp2_S5</ownerDesignName>
+<engineerTo>
+<item key="D55A22D8-E466-2AEC-EB7F-B97EC610F574" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B3B9F0B8-5C8D-87C8-5B33-79DFDAB6E61F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
